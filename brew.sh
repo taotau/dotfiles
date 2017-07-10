@@ -37,8 +37,8 @@ brew install wget --with-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+# brew install ringojs
+# brew install narwhal
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
@@ -54,30 +54,30 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
+# brew install xz
 
 # Install other useful binaries.
 brew install ack
@@ -101,5 +101,30 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+brew cask install caffeine
+brew cask install dropbox
+brew cask install evernote
+brew cask install firefox
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install iterm2
+brew cask install omnigraffle
+brew cask install slack
+brew cask install spotify
+brew cask install sublime
+brew cask install the-unarchiver
+brew cask install utorrent
+brew cask install virtualbox
+brew install macvim
+brew install dockutil
+brew cask install intellij-idea
+brew install gpg
+brew cask install java
+
+
+
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+
