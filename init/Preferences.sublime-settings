@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -15,6 +15,8 @@
 		".Spotlight-V100",
 		".Trashes"
 	],
+	"flatland_sidebar_tree_xsmall": true,
+	"flatland_square_tabs": true,
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -24,6 +26,10 @@
 	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"line_padding_bottom": 5,
 	"match_brackets": true,
 	"match_brackets_angle": true,
@@ -35,7 +41,9 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": false,
+	"bold_folder_labels": true,
 }
