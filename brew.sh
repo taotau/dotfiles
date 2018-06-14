@@ -20,9 +20,8 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`. To do so, run `sudo chsh -s /usr/local/bin/bash`.
+# running `chsh`.
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
@@ -39,12 +38,14 @@ brew install wget --with-iri
 # see http://git.io/brew-narwhal-ringo.
 # brew install ringojs
 # brew install narwhal
+# Install GnuPG to enable PGP-signing commits.
+# brew install gnupg
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install screen
 brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
@@ -81,7 +82,6 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
@@ -92,13 +92,10 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
-brew install rhino
-brew install speedtest_cli
+brew install rlwrap
 brew install ssh-copy-id
-brew install testssl
 brew install tree
 brew install vbindiff
-brew install webkit2png
 brew install zopfli
 
 brew cask install caffeine
